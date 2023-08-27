@@ -1,0 +1,59 @@
+
+.glossary {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    /* background-color: #000000; */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .glossary h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .glossary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .glossary li {
+    margin-bottom: 10px;
+  }
+  
+  .glossary li strong {
+    color: red;
+  }
+  
+  .glossary li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .glossary li {
+    padding-top: 10px;
+  }
+  
+  .glossary li::before {
+    content: "– ";
+    color: red;
+  }
+  
+  .glossary li:hover {
+    background-color: #862121;
+    transition: background-color 0.2s ease;
+  }
+  
+  #backtoknowledgebutton {
+    color: #ff5f1f;
+  }
+  #backtoknowledgebutton:hover {
+    color: white;
+    transition: background-color 0.2s ease;
+    background-color: #ff5f1f;
+    max-width: 15%;
+    align-items: center;
+  }

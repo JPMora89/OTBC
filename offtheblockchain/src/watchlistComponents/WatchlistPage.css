@@ -1,0 +1,36 @@
+
+
+#blockchainLink {
+    width: 100%; 
+    height: auto;
+    max-height: 800px;
+    display: block; 
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 20px; 
+    margin-top: -10%;
+  }
+  
+  #watchlistpageheader {
+    text-align: center;
+  }
+  
+  #watchlistcontainer {
+    margin-bottom: 20%;
+    margin-right: 10%;
+  }
+  
+  #backtocoinsbutton {
+    color: #FF5F1F;
+  }
+  
+  #backtocoinsbutton {
+    color: #ff5f1f;
+  }
+  #backtocoinsbutton:hover {
+    color: white;
+    transition: background-color 0.2s ease;
+    background-color: #ff5f1f;
+    max-width: 5%;
+    align-items: center;
+  }
